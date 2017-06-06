@@ -1,8 +1,10 @@
-Node 8.0.0 is here! It enters Node's Long Term Support roadmap and it brings some new interesting features. The complete release note is available on [the official node blog](https://nodejs.org/en/blog/release/v8.0.0/) but let's take a look at the some of the highlights:
+Node 8.0.0 is here! It enters Node's Long Term Support roadmap and it brings some new interesting features. The complete release note is available on [the official node blog](https://nodejs.org/en/blog/release/v8.0.0/) but let's take a look at the some of the highlights :)
 
 ---------
 
-# promisify
+# Promisify
+
+Standard callback style APIs, such as `fs.readFile(path, callback)` or `request(path, callback)` can now be wrapped into promises with the help of `util.promisify()`. It creates a function that returns a promise.
 
 @[Promisify]({"stubs": ["promisify.js", "file-to-read.txt"], "command": "bash -c 'chmod +x promisify-run.sh && ./promisify-run.sh'"})
 
@@ -10,7 +12,11 @@ Node 8.0.0 is here! It enters Node's Long Term Support roadmap and it brings som
 
 # Async Hooks
 
+---------
+
 # URL API
+
+---------
 
 # --pending-deprecation
 
@@ -21,3 +27,4 @@ The following snippets runs Node 8.0.0 with the `--pending-deprecation` flag. Tr
 @[Deprecation Warnings]({"stubs": ["deprecation.js"], "command": "bash -c 'chmod +x deprecation-run.sh && ./deprecation-run.sh'"})
 
 -----------
+
