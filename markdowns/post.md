@@ -2,7 +2,7 @@ Node 8.0.0 is here! It enters Node's Long Term Support roadmap and it brings som
 
 # promisify
 
-@[Promisify]({"stubs": ["promisify.js", "promisify-run.sh"], "command": "bash -c 'chmod +x promisify-run.sh && ./promisify-run.sh'"})
+@[Promisify]({"stubs": ["promisify.js"], "command": "bash -c 'chmod +x promisify-run.sh && ./promisify-run.sh'"})
 
 # Async Hooks
 
