@@ -2,7 +2,7 @@ Node 8.0.0 is here! It enters Node's Long Term Support roadmap and it brings som
 
 # promisify
 
-# async hooks
+# Async Hooks
 
 # URL API
 
@@ -12,6 +12,6 @@ Node 8.0.0 is here! It enters Node's Long Term Support roadmap and it brings som
 
 The following snippets runs Node 8.0.0 with the `--pending-deprecation` flag. Try it out.
 
-@[Deprecation Warnings]({"stubs": ["deprecation.js", "deprecation-run.sh"], "command": "./deprecation-run.sh"})
+@[Deprecation Warnings]({"stubs": ["deprecation.js", "deprecation-run.sh"], "command": "bash -c 'chmod +x deprecation-run.sh && ./deprecation-run.sh'"})
 
 -----------
