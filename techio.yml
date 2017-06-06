@@ -1,7 +1,7 @@
 title : What's new in Node 8.0.0
 plan:
   - title: What's new in Node 8.0.0
-    statement: markdowns/part1.md
+    statement: markdowns/post.md
 projects:
   dlang:
    root: root
