@@ -1,4 +1,4 @@
-Node 8.0.0 is here! It enters Node's Long Term Support roadmap and it brings some new interesting features. The complete release note is available on [the official node blog](https://nodejs.org/en/blog/release/v8.0.0/) but let's take a look at the some of the highlights :)
+**Node 8.0.0** is here! It enters Node's Long Term Support roadmap and it brings some new interesting features. The complete release note is available on [the official Node blog](https://nodejs.org/en/blog/release/v8.0.0/), but let's take a look at the some of the highlights :)
 
 ---------
 
@@ -11,6 +11,22 @@ Standard callback style APIs, such as `fs.readFile(path, callback)` or `request(
 ---------
 
 # Async Hooks
+
+The `async_hooks` is an experimental module that helps you monitor async operations. You can defined hooks for the various stages of an async request's lifecycle. The constructor `async_hooks.createHook` takes as parameter an object with different callbacks:
+
+```javascript
+// Create a new AsyncHook instance. All of these callbacks are optional.
+const asyncHook = async_hooks.createHook({
+  init: initCallback,
+  before: beforeCallback,
+  after: afterCallback,
+  destroy: destroyCallback
+});
+```
+
+@[Async Hooks]({"stubs": ["async-hooks.js", "async-hooks-run.sh"], "command": "bash -c 'chmod +x async-hooks-run.sh && ./async-hooks-run.sh'"})
+
+[Official documentation for async_hooks](https://github.com/AndreasMadsen/node/blob/82149a8e0f0a13e5f34215e370b6750a300617e6/doc/api/async_hooks.md). Be aware that `async_hooks` is still incomplete and "_users should take great care when using the experimental new module_".
 
 ---------
 
