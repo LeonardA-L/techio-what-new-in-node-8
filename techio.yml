@@ -1,6 +1,10 @@
-title : Content name
+title : What's new in Node 8.0.0
 plan:
-  - title: Part 1
+  - title: What's new in Node 8.0.0
     statement: markdowns/part1.md
-  - title: Part 2
-    statement: markdowns/part2.md
+projects:
+  dlang:
+   root: root
+   runner:
+    name: node
+    version: latest
