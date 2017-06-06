@@ -6,7 +6,7 @@ const readfile = util.promisify(fs.readFile);
 
 readfile('./file-to-read.txt')   // This returns a promise
   .then((data) => {
-    console.log(data);
+    console.log(data.toString());
   })
   .catch((err) => {
     console.log(err);

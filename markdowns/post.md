@@ -1,8 +1,12 @@
 Node 8.0.0 is here! It enters Node's Long Term Support roadmap and it brings some new interesting features. The complete release note is available on [the official node blog](https://nodejs.org/en/blog/release/v8.0.0/) but let's take a look at the some of the highlights:
 
+---------
+
 # promisify
 
-@[Promisify]({"stubs": ["promisify.js"], "command": "bash -c 'chmod +x promisify-run.sh && ./promisify-run.sh'"})
+@[Promisify]({"stubs": ["promisify.js", "file-to-read.txt"], "command": "bash -c 'chmod +x promisify-run.sh && ./promisify-run.sh'"})
+
+---------
 
 # Async Hooks
 
