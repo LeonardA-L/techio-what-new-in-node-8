@@ -30,7 +30,13 @@ Read the [official documentation for async_hooks](https://github.com/AndreasMads
 
 ---------
 
-# URL API
+# URL parser API
+
+Node 8.0.0 now supports the _WHATWG URL_ standard. It helps you parse and handle URL objects easily. It has [official documentation for the WHATWG URL API](https://nodejs.org/api/url.html#url_the_whatwg_url_api) but here are some of them.
+
+@[URL API]({"stubs": ["url.js"], "command": "bash -c 'chmod +x url-run.sh && ./url-run.sh'"})
+
+Read the [official documentation for the WHATWG URL API](https://nodejs.org/api/url.html#url_the_whatwg_url_api).
 
 ---------
 
