@@ -50,3 +50,4 @@ The following snippets runs Node 8.0.0 with the `--pending-deprecation` flag. Tr
 
 -----------
 
+These are the features I felt you needed to know, but Node 8.0.0 comes with a lot of other new features, big and small, so have fun checking them out and do no hesitate to [read the official release note](https://nodejs.org/en/blog/release/v8.0.0/).
