@@ -1,4 +1,4 @@
-**Node 8.0.0** is here! It enters Node's Long Term Support roadmap and it brings some new interesting features. The complete release note is available on [the official Node blog](https://nodejs.org/en/blog/release/v8.0.0/), but let's take a look at the some of the highlights :)
+**Node 8.0.0** is here! Released on May 30th 2017, It enters Node's Long Term Support roadmap and it brings some new interesting features. The complete release note is available on [the official Node blog](https://nodejs.org/en/blog/release/v8.0.0/), but let's take a look at the some of the highlights :)
 
 ---------
 
