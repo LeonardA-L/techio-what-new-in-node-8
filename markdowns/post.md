@@ -24,9 +24,9 @@ const asyncHook = async_hooks.createHook({
 });
 ```
 
-@[Async Hooks]({"stubs": ["async-hooks.js", "async-hooks-run.sh"], "command": "bash -c 'chmod +x async-hooks-run.sh && ./async-hooks-run.sh'"})
+@[Async Hooks]({"stubs": ["async-hooks.js"], "command": "bash -c 'chmod +x async-hooks-run.sh && ./async-hooks-run.sh'"})
 
-[Official documentation for async_hooks](https://github.com/AndreasMadsen/node/blob/82149a8e0f0a13e5f34215e370b6750a300617e6/doc/api/async_hooks.md). Be aware that `async_hooks` is still incomplete and "_users should take great care when using the experimental new module_".
+Read the [official documentation for async_hooks](https://github.com/AndreasMadsen/node/blob/82149a8e0f0a13e5f34215e370b6750a300617e6/doc/api/async_hooks.md). Be aware that `async_hooks` is still incomplete and "_users should take great care when using the experimental new module_".
 
 ---------
 
