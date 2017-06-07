@@ -1,30 +1,35 @@
 const URL = require('url').URL;
 
-const myURL = new URL('https://example.org:8080/foo#bar?first=john&last=doe');
+const myURL = new URL('https://example.org:8080/foo?first=john&last=doe#bar');
 
-console.log(myURL.href);
+console.log('### Properties');
 
-console.log(myURL.protocol);
+console.log('href: ', myURL.href);
 
-console.log(myURL.pathname);
+console.log('protocol: ', myURL.protocol);
 
-console.log(myURL.host);
+console.log('pathname: ', myURL.pathname);
 
-console.log(myURL.port);
+console.log('host: ', myURL.host);
 
-console.log(myURL.hostname);
+console.log('port: ', myURL.port);
 
-console.log(myURL.hash);
+console.log('hostname: ', myURL.hostname);
 
-console.log(myURL.search);
+console.log('hash: ', myURL.hash);
+
+console.log('search: ', myURL.search);
 
 // You can also set these properties
 myURL.port = 9999;
-console.log(myURL.port);
+console.log('New port: ', myURL.port);
 
 // Inspecting search parameters
+
+console.log('### Search Parameters');
+
 const searchParams = myURL.searchParams;
 
 searchParams.forEach((value, name, searchParams) => {
-  console.log(name, value);
+  console.log(name, ':', value);
 });
