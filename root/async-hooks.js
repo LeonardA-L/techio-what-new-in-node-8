@@ -1,14 +1,18 @@
+// { autofold
 // Adapted from the official documentation at https://github.com/AndreasMadsen/node/blob/82149a8e0f0a13e5f34215e370b6750a300617e6/doc/api/async_hooks.md
 const async_hooks = require('async_hooks');
 const fs = require('fs');
 const util = require('util');
+// }
+// { autofold
+// Some other useful APIs
 // Return the ID of the current execution context.
 const cid = async_hooks.currentId();
 
 // Return the ID of the handle responsible for triggering the callback of the
 // current execution scope to call.
 const tid = async_hooks.triggerId();
-
+// }
 // Create a new AsyncHook instance. All of these callbacks are optional.
 const asyncHook = async_hooks.createHook({ init, before, after, destroy });
 
