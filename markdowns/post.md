@@ -12,7 +12,7 @@ Standard callback style APIs, such as `fs.readFile(path, callback)` or `request(
 
 # Async Hooks
 
-The `async_hooks` is an experimental module that helps you monitor async operations. You can defined hooks for the various stages of an async request's lifecycle. The constructor `async_hooks.createHook` takes as parameter an object with different callbacks:
+The `async_hooks` is an experimental module that helps you monitor async operations. You can define hooks for the various stages of an async request's lifecycle. The constructor `async_hooks.createHook` takes as parameter an object with different callbacks:
 
 ```javascript
 // Create a new AsyncHook instance. All of these callbacks are optional.
