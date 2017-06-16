@@ -21,6 +21,7 @@ console.log('New port:', myURL.port);
 console.log('## Search Parameters:');
 const searchParams = myURL.searchParams;
 
-searchParams.forEach((value, name) =>
-  console.log(name, ':', value);
+searchParams.forEach((value, name) => {
+    console.log(name, ':', value);
+  }
 );

@@ -42,7 +42,7 @@ Read the [official documentation for the WHATWG URL API](https://nodejs.org/api/
 
 # --pending-deprecation
 
-`--pending-deprecation` is a new flag that will warn you whenever your node program is using features that are pending deprecation. For instance, in Node 8.0.0, using the for constructor `Buffer(num)` for the Buffer API is getting deprecated. This constructor used to create 0-filled `Buffer` instances is pending deprecation and so if you use it and launch node with the `--pending-deprecation` flag, it will emit a `DeprecationWarning` warning.
+`--pending-deprecation` is a new flag that will warn you whenever your node program is using features that are pending deprecation. For instance, in Node 8.0.0, using the constructor `Buffer(num)` for the Buffer API is getting deprecated. This constructor used to create 0-filled `Buffer` instances is pending deprecation and so if you use it and launch node with the `--pending-deprecation` flag, it will emit a `DeprecationWarning` warning.
 
 The following snippets runs Node 8.0.0 with the `--pending-deprecation` flag. Try it out.
 
